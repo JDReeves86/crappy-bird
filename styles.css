@@ -1,0 +1,37 @@
+#player {
+    position: absolute;
+    background-image: url('./assets/birb.png');
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+}
+
+#banner {
+    position: fixed;
+    top: 30vh;
+    left: 50vw
+}
+#counter {
+    position: fixed;
+    top: 35vh;
+    left: 50vw
+}
+
+#enemy {
+    position: absolute;
+    background-image: url('./assets/tree.png');
+    background-size: contain;
+    width: 30px;
+}
+
+#safe {
+    position: absolute;
+    background-color: rgb(43, 179, 31);
+    width: 30px;
+}
+
+#enemy2 {
+    position: absolute;
+    background-color: red;
+    width: 30px;
+}
